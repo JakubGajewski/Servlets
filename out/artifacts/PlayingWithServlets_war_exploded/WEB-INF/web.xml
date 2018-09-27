@@ -7,7 +7,7 @@
     <display-name>Head First Servlet and JSP</display-name>
     <servlet>
         <servlet-name>CalkiemSpokoServlet</servlet-name>
-        <servlet-class>pl.jg.SuperServlet</servlet-class>
+        <servlet-class>pl.jg.controller.SuperServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CalkiemSpokoServlet</servlet-name>
@@ -16,12 +16,22 @@
 
     <servlet>
         <servlet-name>JeszczeBardziejSpokoServlet</servlet-name>
-        <servlet-class>pl.jg.ModernServlet</servlet-class>
+        <servlet-class>pl.jg.controller.ModernServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>JeszczeBardziejSpokoServlet</servlet-name>
         <url-pattern>/lupa</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LetniServlet</servlet-name>
+        <servlet-class>pl.jg.controller.AgeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LetniServlet</servlet-name>
+        <url-pattern>/age</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>
 

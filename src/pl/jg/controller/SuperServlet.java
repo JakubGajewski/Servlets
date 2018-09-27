@@ -1,4 +1,4 @@
-package pl.jg;
+package pl.jg.controller;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
